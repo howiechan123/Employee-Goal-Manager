@@ -1,0 +1,139 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+/* The Modal (background) */
+.modal{
+    display: flex; /*Hidden by default*/
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+    background-color: #F5F5F5;
+    margin: auto;
+    border: 3px solid #888;
+    width: 50%;
+    /* color:#087C79; */
+    border-radius: 25px;
+}
+/* The Close Button */
+.close:hover,
+.close:focus {
+    cursor: pointer;
+}
+.titleContainer {
+  background-color:#005151; 
+  border-radius: 21px;
+  /* width: 30px;; */
+  /* Add width to modify the width of the title "Create/Manage Goal" */
+}
+.title {
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    padding-top: 5px;
+    margin-left: 40px;
+}
+.sectionTitleContainer{
+    /* background-color:#F5F5F5;
+     */
+     background-color: #087C79;
+     color:white;
+     width: 140px;
+     margin-left: 10px;
+     align-content: space-between;
+     flex-direction: column;
+     /* Change this width size to change the width of the containers of all other headings. 
+     Orginally it wasnt set at all, so feel free to comment it out. */
+}
+.sectionTitle{
+    font-size:20px; 
+    padding: 5px;
+    padding-left: 5px;
+    color:white;
+    font-size: large;
+}
+.textInput{
+    width: 50%; 
+    margin-left: 10px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    /* font-size: large; */
+}
+.dateInput{
+    margin-left: 10px;
+    width: 25%;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    /* font */
+}
+.textArea{
+    margin-left: 10px; 
+    margin-bottom: 0px;
+    resize: none;
+}
+.dropdownInput{ 
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+.smallTitle{
+    padding:3px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    /* Change this to change the style for all smaller headings */
+    font-size: 20px;
+    /* border-radius: 10px; */
+}
+.updateTitle{
+    color: white; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
+.close-titleContainer {
+    background-color:#005151;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 140px;
+    margin-right: 140px;
+    /* Change this to modify the "Finish" Button */
+    cursor:pointer;
+}
+input[type=text]{
+    border: 1px solid #0a0a0a;
+    color: #080808;
+    width: 250px;
+    height: 30px;
+    padding-left: 0px;
+}
+.description{
+        /* padding:3px; */
+    font-size: 20px;
+    background: #087C79;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    /* padding: 5px; */
+        /* width: 50%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px; */
+    border-radius: 10px;
+    color:white;
+    
+}
+.xButton{
+    position: relative;
+    float: right;
+    margin: 10px;
+    /* align-items: flex-end; */
+}

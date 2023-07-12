@@ -1,0 +1,24 @@
+
+.Header {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    padding: 1em;
+    /* margin-bottom: 2em; */
+    background-color: #005151;
+    color: rgb(255, 255, 255);
+    font-family: "PT Sans", "Source Sans Pro", Tahoma, sans-serif;
+  }
+
+.logo_img {
+    border-collapse: collapse;
+    border-radius: 20px;
+    width: auto;
+    height: 50px;
+    padding-right: 30px;
+}
+
+.title {
+  padding-right: 0px;
+}
